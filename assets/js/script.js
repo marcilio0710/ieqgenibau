@@ -13,37 +13,47 @@ function createMobileNavbar(mobileMenuSelector, navListSelector, navLinksSelecto
   }
 
   function handleClick() {
-    navList.classList.toggle(activeClass);
-    mobileMenu.classList.toggle(activeClass);
-    animateLinks();
-
-    // Adiciona listener para fechar ao clicar/tocar fora
     if (navList.classList.contains(activeClass)) {
+      closeMenuInstantly();
+    } else {
+      // Abrir com transição padrão (definida no CSS)
+      navList.classList.add(activeClass);
+      mobileMenu.classList.add(activeClass);
+      animateLinks();
       document.addEventListener("click", closeOnClickOutside);
       document.addEventListener("touchend", closeOnClickOutside);
-    } else {
-      document.removeEventListener("click", closeOnClickOutside);
-      document.removeEventListener("touchend", closeOnClickOutside);
     }
   }
 
+  function closeMenuInstantly() {
+    // 🔧 Desativa transição antes de remover classe
+    navList.style.transition = "none";
+    mobileMenu.style.transition = "none";
+
+    navList.classList.remove(activeClass);
+    mobileMenu.classList.remove(activeClass);
+    animateLinks();
+
+    // força repaint para aplicar o estado sem transição
+    void navList.offsetHeight;
+
+    // restaura transição padrão
+    navList.style.transition = "";
+    mobileMenu.style.transition = "";
+
+    document.removeEventListener("click", closeOnClickOutside);
+    document.removeEventListener("touchend", closeOnClickOutside);
+  }
+
   function closeOnClickOutside(event) {
-    // se o clique NÃO for no menu ou em qualquer link dentro
-    if (
-      !navList.contains(event.target) &&
-      !mobileMenu.contains(event.target)
-    ) {
-      navList.classList.remove(activeClass);
-      mobileMenu.classList.remove(activeClass);
-      animateLinks();
-      document.removeEventListener("click", closeOnClickOutside);
-      document.removeEventListener("touchend", closeOnClickOutside);
+    if (!navList.contains(event.target) && !mobileMenu.contains(event.target)) {
+      closeMenuInstantly();
     }
   }
 
   function addClickEvent() {
     mobileMenu.addEventListener("click", e => {
-      e.stopPropagation();   // evita fechar imediatamente ao abrir
+      e.stopPropagation(); // evita disparo no document ao abrir
       handleClick();
     });
   }
