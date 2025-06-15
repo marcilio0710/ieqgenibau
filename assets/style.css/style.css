@@ -99,6 +99,30 @@ img.logo {
     text-align: right;
       
 }
+.social-bar{
+    background-color:#C4D2D2;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 15vh;
+ 
+}
+
+.social-icones{
+
+  display: flex; 
+  align-items: center;
+  font-size: 24px;
+  gap: 1.5rem;
+  justify-content: flex-start;
+  padding: 0 20px;
+}
+.social-icones img {
+  
+  width: 30px;
+  height: 30px;
+}
 
 nav{
     display: flex;
