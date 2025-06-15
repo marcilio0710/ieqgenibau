@@ -163,11 +163,7 @@ main{
         transition: transform 0.3s ease-in;                
         
     }
-    }
-.nav-list.ativo {
-  transform: translateX(0); /* aparece */
-  transition: none; /* sem transição ao fechar */
-}
+
     .nav-list li{
         margin-left: 0;
         opacity: 0;
