@@ -42,7 +42,7 @@ body{
     font-family: "Raleway", sans-serif;
     padding: 2rem;
     
-    max-width: 92vw
+    max-width: 92vw;
     background-color: rgba(0, 0, 0, 0.4); /* opcional: melhora leitura sobre a imagem */
     border-radius: 8px;
 }
