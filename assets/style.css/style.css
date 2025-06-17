@@ -138,6 +138,7 @@ img.logo {
     background-color: rgba(47, 211, 240, 0.068); /* opcional: melhora leitura sobre a imagem */
     border-radius: 8px;
     font-family: "Matangi", sans-serif;
+    justify-content: space-around;
 
 }
 .versiculo .referencia {
@@ -148,6 +149,7 @@ img.logo {
   margin-top: 0.2em;
   width: 1028px;
   font-family: "Matangi", sans-serif;
+justify-content: space-around;
 }
 .social-bar{
     background-color:#C4D2D2;
