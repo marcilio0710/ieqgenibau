@@ -22,7 +22,17 @@ body{
     overflow-x: hidden;
     height: 100%;
 }
+.home a{
+    
+    text-decoration: none; 
+    text-align: right;
+    color: blue;
+    display: grid;
+    font-size: 20px;
+    margin-right: 5%;
+    padding-top: 5%;
 
+}
 
 a{
     color: #fff;
