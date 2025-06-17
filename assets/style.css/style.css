@@ -231,13 +231,8 @@ hr.section-separator {
   color: #ffffff;
   border-top: 1px solid #C4D2D2;
   margin: 0.3rem 0;
-  
 }
-hr.header-separator {
-  width: 90%;
-  margin: 0.3rem auto;
-  background-color: #C4D2D2;
-}
+
 @media (max-width:999px){
 
     .nav-list{
