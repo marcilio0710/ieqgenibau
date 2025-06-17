@@ -8,9 +8,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family:"Montserrat", sans-serif;
-    
-    
+    font-family:"Montserrat", sans-serif;       
  
 }
 html {
@@ -25,47 +23,6 @@ body{
     height: 100%;
 }
 
-.imgfrente {
-    background: url('../img/frente.jpg') no-repeat center center;
-    background-size: cover;
-    width: 100vw;
-    height: 92vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    opacity: 0.7;    
-    
-}
-
-.textohome {
-    text-align: center;
-    color: #fff;
-    text-shadow: #000 1px 2px 5px;
-    font-family: "Raleway", sans-serif;
-    padding: 2rem;
-    /*width: 100%; max-width: 800px;min-width: 320px;*/
-    width: 92vw;
-    background-color: rgba(0, 0, 0, 0.4); /* opcional: melhora leitura sobre a imagem */
-    border-radius: 8px;
-}
-
-.textohome h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
-}
-
-.textohome p {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
-}
-     
-      
-      /*background-color: rgba(0, 0, 0, 0.0); /* fundo escuro transparente */
-      /*.container: 20px;*/
-     /*border-radius: 10px;*/
 
 a{
     color: #fff;
@@ -77,15 +34,7 @@ a{
 a:hover{
     opacity: 0.7;
 }
-p{
-    font-family:"Montserrat", sans-serif;
-    color: #fff;
-    font-weight: bold;
-    letter-spacing: 3.5px;
-    margin: -10px 0px 10px 0px;
-    font-size: 25px;
-    justify-content: space-around;
-}
+
 .gen{
     font-family:"Montserrat", sans-serif;
     color: #fff;
@@ -95,6 +44,7 @@ p{
     font-size: 25px;
     justify-content: space-around;
 }
+
 .for{
     font-family:"Montserrat", sans-serif;
     color: #fff;
@@ -112,48 +62,6 @@ img.logo {
   /* elimina espaços em linha nos navegadores */
 }
 
-
-.imgvers{
-    background-image: url('../img/versiculo.jpg');
-    background-size: cover;
-    width: 100vw;
-    height: 92vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    opacity: 0.7;  
-    z-index: 10;
-}
-.versiculo{
-   
-    text-align: center;
-    color: #fff;
-    text-shadow: #000 1px 2px 5px;
-      padding: 2rem;
-    /*width: 100%; max-width: 800px;min-width: 320px;*/
-    width: 92vw;
-    background-color: rgba(47, 211, 240, 0.068); /* opcional: melhora leitura sobre a imagem */
-    border-radius: 8px;
-    font-family: "Matangi", sans-serif;
- 
-
-}
-
-.versiculo h1{
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
-}
-
-.versiculo p {
-    
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
-    text-align: center;
-    /*margin-left: 50%; para colocar à direita junto com o text-align:center*/
-}
 .social-bar{
     background-color:#C4D2D2;
     display: flex;
@@ -173,11 +81,13 @@ img.logo {
   justify-content: flex-start;
   padding: 0 20px;
 }
+
 .social-icones img {
   
   width: 30px;
   height: 30px;
 }
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -191,10 +101,12 @@ nav{
     box-shadow: 0 3px 10px #C4D2D2;
     transition: box-shadow 0.3s ease;    
 }
+
     nav:hover {
     box-shadow: 0px 5px 10px #C4D2D2;
     z-index: 10;
 }
+
 /*até aqui*/
 
 main{
@@ -224,13 +136,6 @@ main{
     background:#fff;
     margin: 8px;
     transition: 0.3s;
-}
-hr.section-separator {
-  border: none;
-  background-color: #C4D2D2;
-  color: #ffffff;
-  border-top: 1px solid #C4D2D2;
-  margin: 0.3rem 0;  
 }
 
 @media (max-width:999px){
