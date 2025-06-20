@@ -277,7 +277,7 @@ footer{
   font-weight: 100;
     
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:999px){
 
     .nav-list{
         
@@ -324,7 +324,7 @@ footer{
     width: 40px;
 }
 }
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 768px) {
   img.logo {
     width: 200px;
   }
