@@ -280,7 +280,7 @@ footer{
   font-weight: 100;
     
 }
-@media screen and (max-width:999px){
+@media (max-width:999px){
 
     .nav-list{
         
@@ -320,7 +320,7 @@ footer{
     gap:2rem;
 }
 }
-@media screen and (min-width: 426px) {
+@media (min-width: 426px) {
   img.logo {
     width: 200px;
   }
