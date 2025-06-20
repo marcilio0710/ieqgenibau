@@ -319,6 +319,11 @@ footer{
     grid-template-columns: repeat(2, 1fr);
     gap:2rem;
 }
+.footer-content h1{
+    
+    font-size: 0.9rem;
+}
+
 }
 @media (min-width: 726px) {
   img.logo {
@@ -330,6 +335,9 @@ footer{
     grid-template-columns: repeat(2, 1fr);
     gap:2rem;
 }
+.footer-content h1{
+    
+    font-size: 0.9rem;
 }
 
 @keyframes navLinkFade{
