@@ -193,7 +193,8 @@ nav{
     /*fiz uma alteração aqui para colocar sombra na Nav*/
     position: relative;
     box-shadow: 0 3px 10px #C4D2D2;
-    transition: box-shadow 0.3s ease;    
+    transition: box-shadow 0.3s ease; 
+    white-space: nowrap;
 }
     nav:hover {
     box-shadow: 0px 5px 10px #C4D2D2;
