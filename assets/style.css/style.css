@@ -249,7 +249,6 @@ footer{
     font-size: 0.9rem;
     font-weight: normal;
     justify-content: space-around;
-    margin-left: 87px;
     
 }
 .social-footer{
@@ -341,13 +340,6 @@ footer{
 }
 .footer-content img{
     width: 140px;
-}
-.logo-footer{
-    margin-left: -40px;
-}
-
-.social-footer img{
-    width: 40px;
 }
 }
 
