@@ -338,6 +338,9 @@ footer{
 .footer-content img{
     width: 140px;
 }
+.logo-footer{
+    margin-left: -40px;
+}
 
 .social-footer img{
     width: 40px;
