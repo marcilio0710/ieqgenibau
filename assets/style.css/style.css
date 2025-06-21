@@ -325,6 +325,9 @@ footer{
 .social-footer img{
     width: 40px;
 }
+    .social-footer img{
+    width: 40px;
+}
 }
 @media screen and (min-width: 768px) {
   img.logo {
