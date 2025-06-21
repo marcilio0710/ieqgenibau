@@ -239,7 +239,7 @@ footer{
 
 .footer-content {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 2.5fr);
   padding: 3rem 3.5rem;
 }
 .footer-content h1{
