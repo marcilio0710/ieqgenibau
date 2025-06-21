@@ -262,7 +262,7 @@ footer{
   
 }
 .footer-content a{
-    text-align: left;
+    justify-content: right
 }
 .social-footer img {
   
@@ -275,7 +275,7 @@ footer{
     background-color: #000;
     color: white;
     padding: 1.5rem;
-  font-weight: 100;
+    font-weight: 100;
     
 }
 @media screen and (max-width:999px){
