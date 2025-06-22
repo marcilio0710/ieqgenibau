@@ -249,7 +249,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* alinha à esquerda */
-    margin-left: -20px; /* ajuste fino para mover à esquerda */
+    margin-left: 20px; /* ajuste fino para mover à esquerda */
 }
 .footer-content h1{
     text-align: center;
