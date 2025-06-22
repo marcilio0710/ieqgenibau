@@ -5,6 +5,7 @@ const menu = document.querySelector('.mobile-menu'),
 menu.addEventListener('click', () => {
   menu.classList.toggle('ativo');
   nav.classList.toggle('ativo');
+  document.body.classList.toggle('overlay-ativo');
 
   items.forEach((el, i) => {
     el.style.animation = el.style.animation
