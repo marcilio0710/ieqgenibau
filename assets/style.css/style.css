@@ -244,12 +244,13 @@ footer{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 3rem 3.5rem;
+  align-items: center;
+  gap: 2rem;
 }
 .logo-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* alinha à esquerda */
-    margin-left: 20px; /* ajuste fino para mover à esquerda */
+    align-items: flex-start; 
 }
 .footer-content h1{
     text-align: right;
@@ -258,7 +259,11 @@ footer{
     font-size: 0.9rem;
     font-weight: normal;
     justify-content: space-around;
-    
+      
+}
+.logofooter{
+    width:100%;
+    height: auto;
     
 }
 .social-footer{
