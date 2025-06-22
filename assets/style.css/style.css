@@ -286,9 +286,9 @@ footer{
 
     .nav-list{
         
-        position:fixed;
+        position:absolute;
         left: 0;        
-        top: 34vh;
+        top: 24vh;
         right: 0;
         width: 100vw;
         height: 100vh;
