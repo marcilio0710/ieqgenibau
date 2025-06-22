@@ -289,7 +289,7 @@ footer{
         position:absolute;
         top: 24vh;
         right: 0;
-        width: 50vw;
+        width: 100vw;
         height: 93vh;
         background: #23232e;
         flex-direction: column;
