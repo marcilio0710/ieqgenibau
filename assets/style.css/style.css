@@ -268,11 +268,8 @@ footer{
 .social-footer{
 
   display: flex;   
-  font-size: 24px;
-  gap: 2rem;
-  margin-top: 1.5rem;
-  justify-content:space-around;
-  text-align: right;
+  gap: 1.5rem;
+  justify-content:flex-start
   
 }
 .footer-content a{
@@ -280,8 +277,8 @@ footer{
 }
 .social-footer img {
   
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 .footer-copyright{
     justify-content: center;
