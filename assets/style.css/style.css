@@ -321,17 +321,32 @@ footer{
 .nav-list.ativo{
     transform: translateX(0);
 }
-
-.footer-content{
-    grid-template-columns: repeat(2, 1fr);
-    gap:1rem;
-}
 .footer-content img{
     width: 140px;
 }
 .social-footer img{
     width: 40px;
 }
+  .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-items: center;
+  }
+
+  .logo-container,
+  .dados-footer {
+    align-items: center;
+  }
+
+  .dados-footer h1 {
+    text-align: center;
+  }
+
+  .social-footer {
+    justify-content: center;
+  }
+}
+    
 }
 @media screen and (min-width: 726px) {
 
