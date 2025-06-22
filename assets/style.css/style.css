@@ -290,7 +290,7 @@ footer{
         top: 24vh;
         right: 0;
         width: 100vw;
-        height: 93vh;
+        height: 100%;
         background: #23232e;
         flex-direction: column;
         align-items: center;
