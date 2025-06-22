@@ -245,6 +245,12 @@ footer{
   grid-template-columns: repeat(2, 1fr);
   padding: 3rem 3.5rem;
 }
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* alinha à esquerda */
+    margin-left: -20px; /* ajuste fino para mover à esquerda */
+}
 .footer-content h1{
     text-align: center;
     margin-top: 1rem;
