@@ -326,6 +326,8 @@ footer{
 }
 .social-footer img{
     width: 40px;
+    text-align: center;
+    display:flex;
 }
   .footer-content {
     grid-template-columns: 1fr;  
@@ -333,15 +335,18 @@ footer{
   }
 
   .logo-container{
-    align-items: left;
+    align-items: center;
   }
 
-  .dados-footer h1 {
-    text-align: justify;
+  .dados-footer h1{
+    justify-content: center;  
+    margin-right: 200px;
+    
   }
 
   .social-footer {
-    justify-content: right;
+    justify-content: center;
+
   }
 }
     
