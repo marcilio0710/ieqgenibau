@@ -339,10 +339,8 @@ footer{
   }
 
   .dados-footer h1{
-    justify-content: center;  
-    margin-right: 200px;
-    
-  }
+    justify-content: left;  
+}
 
   .social-footer {
     justify-content: center;
