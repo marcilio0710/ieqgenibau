@@ -13,3 +13,4 @@ menu.addEventListener('click', () => {
       : `navLinkFade 0.5s ease forwards ${i/7 + 0.3}s`;
   });
 });
+alert('Seja bem-vindo!')
