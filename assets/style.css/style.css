@@ -269,7 +269,7 @@ footer{
   width:100%;
   display: flex;   
   gap: 1.5rem;
-  justify-content:flex-start
+  justify-content:center;
   
 }
 .footer-content a{
@@ -328,22 +328,20 @@ footer{
     width: 40px;
 }
   .footer-content {
-    grid-template-columns: 1fr;
-    text-align: center;
-    justify-items: center;
+    grid-template-columns: 1fr;  
+    display: flex;
   }
 
-  .logo-container,
-  .dados-footer {
-    align-items: center;
+  .logo-container{
+    align-items: left;
   }
 
   .dados-footer h1 {
-    text-align: center;
+    text-align: right;
   }
 
   .social-footer {
-    justify-content: center;
+    justify-content: right;
   }
 }
     
@@ -391,4 +389,3 @@ footer{
 .mobile-menu.ativo .line3{
     transform: rotate(45deg) translate(-5px, -7px);
 }
-
